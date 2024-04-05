@@ -493,3 +493,41 @@ a {
 .team-svg--rotate {
     rotate: 180deg;
 }
+
+/* Download */
+.download {
+    margin: 265px 0 170px;
+}
+
+.download__container {
+    background-color: var(--light-primary-color);
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    align-items: center;
+    color: white;
+}
+
+.download__phone {
+    margin-top: -95px;
+    display: block;
+}
+
+.download__title {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.download__desc {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 18px 0 38px;
+}
+
+.download__icon {
+    display: flex;
+    gap: 28px;
+}
