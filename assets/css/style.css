@@ -339,3 +339,65 @@ a {
     color: var(--light-primary-color);
     font-weight: 400;
 }
+
+/* About us */
+.about {
+    margin: 170px 0;
+}
+
+.about__container {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.about__img {
+    width: 48%;
+    height: 491px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.about__img--after {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about__img--before {
+    width: 332px;
+    height: 317px;
+    border-radius: 6px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.about__text {
+    flex-grow: 1;
+}
+
+.about__tittle {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--dark-primary-color);
+}
+
+.about__desc {
+    font-size: 1.8rem;
+    color: #575f66;
+    padding: 18px 0 38px;
+}
+
+.about__btn {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 15px 52px;
+}
