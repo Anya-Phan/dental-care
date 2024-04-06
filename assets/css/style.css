@@ -629,3 +629,46 @@ a {
 .blog-item__more:hover {
     color: var(--light-primary-color);
 }
+
+/* CTA */
+.cta {
+    margin: 170px 0;
+}
+
+.cta__container {
+    padding: 100px 178px;
+    background-color: #f6fbff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.cta__header {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--dark-primary-color);
+}
+
+.cta__seperate {
+    width: 136px;
+    height: 2px;
+    background-color: var(--dark-primary-color);
+    margin: 18px auto;
+}
+
+.cta__desc {
+    font-weight: 300;
+    text-align: center;
+    color: #575f66;
+}
+
+.cta__btn {
+    margin-top: 53px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 40px;
+}
