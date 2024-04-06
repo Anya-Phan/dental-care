@@ -29,6 +29,7 @@ a {
 
 .btn:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .btn {
@@ -37,6 +38,13 @@ a {
     display: inline-block;
     font-weight: 400;
     border-radius: 30px;
+}
+
+input,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 /* Header */
@@ -671,4 +679,120 @@ a {
     font-weight: 400;
     text-align: center;
     padding: 15px 40px;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-primary-color);
+    padding: 100px 0 42px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr max-content max-content 1fr;
+    column-gap: 78px;
+    align-items: flex-start;
+}
+
+.footer__logo {
+    margin-bottom: 21px;
+}
+
+.footer-col__desc {
+    color: #a9b3bb;
+    margin-bottom: 10px;
+}
+
+.footer-col__list {
+    margin-bottom: 18px;
+}
+
+.footer-col__title {
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer-col__item {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: left;
+    color: #a9b3bb;
+}
+
+.footer-col__item:hover {
+    text-decoration: underline;
+}
+
+.footer-col__list-icon {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 28px;
+}
+
+.footer-col__icon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-primary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.footer-col__icon:hover {
+    background-color: var(--light-primary-color);
+    color: white;
+}
+
+.footer__form {
+    display: flex;
+    gap: 12px;
+    font-size: 1.4rem;
+}
+
+.footer__btn {
+    width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    display: block;
+}
+
+.footer__input {
+    background-color: transparent;
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    color: #9ca8b1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 10px;
+    outline: none;
+}
+
+.footer__input::placeholder {
+    color: #9ca8b1;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    color: #aab3ba;
+    padding-top: 28px;
+    border-top: 1px solid #406181;
 }
