@@ -52,6 +52,9 @@ button {
     padding-top: 30px;
     background-color: var(--dark-primary-color);
     padding-bottom: 12px;
+    position: sticky;
+    top: -18px;
+    z-index: 1;
 }
 
 .header-sticky .nav-bar {
